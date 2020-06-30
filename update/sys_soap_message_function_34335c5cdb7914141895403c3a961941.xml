@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_soap_message_function">
+    <sys_soap_message_function action="INSERT_OR_UPDATE">
+        <authentication_type/>
+        <basic_auth_password/>
+        <basic_auth_profile/>
+        <basic_auth_user/>
+        <certificate/>
+        <enable_mutual_auth>false</enable_mutual_auth>
+        <envelope><![CDATA[<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:equ="EquigroupAPI">
+   <soap:Header/>
+   <soap:Body>
+      <equ:CreateNewAccountLocation>
+         <!--Optional:-->
+         <equ:Username>${CreateNewAccountLocation.Username}</equ:Username>
+         <!--Optional:-->
+         <equ:Password>${CreateNewAccountLocation.Password}</equ:Password>
+         <!--Optional:-->
+         <equ:AccountName>${CreateNewAccountLocation.AccountName}</equ:AccountName>
+         <!--Optional:-->
+         <equ:LocationName>${CreateNewAccountLocation.LocationName}</equ:LocationName>
+         <!--Optional:-->
+         <equ:LocationCode>${CreateNewAccountLocation.LocationCode}</equ:LocationCode>
+         <!--Optional:-->
+         <equ:AddressLine1>${CreateNewAccountLocation.AddressLine1}</equ:AddressLine1>
+         <!--Optional:-->
+         <equ:AddressLine2>${CreateNewAccountLocation.AddressLine2}</equ:AddressLine2>
+         <!--Optional:-->
+         <equ:AddressLine3>${CreateNewAccountLocation.AddressLine3}</equ:AddressLine3>
+         <!--Optional:-->
+         <equ:Suburb>${CreateNewAccountLocation.Suburb}</equ:Suburb>
+         <!--Optional:-->
+         <equ:State>${CreateNewAccountLocation.State}</equ:State>
+         <!--Optional:-->
+         <equ:Postcode>${CreateNewAccountLocation.Postcode}</equ:Postcode>
+         <!--Optional:-->
+         <equ:CountryName>${CreateNewAccountLocation.CountryName}</equ:CountryName>
+      </equ:CreateNewAccountLocation>
+   </soap:Body>
+</soap:Envelope>]]></envelope>
+        <function_name>CreateNewAccountLocation</function_name>
+        <key_store/>
+        <key_store_alias/>
+        <key_store_password/>
+        <lock>false</lock>
+        <protocol_profile/>
+        <qualified_name>equigroup outbound soap v1 [ CreateNewAccountLocation ]</qualified_name>
+        <soap_action>EquigroupAPI/IEquiService/CreateNewAccountLocation</soap_action>
+        <soap_endpoint>https://preprod-apiadvantage.equigroup.com/EquiService.svc</soap_endpoint>
+        <soap_message display_value="equigroup outbound soap v1">8103585cdb7914141895403c3a961948</soap_message>
+        <strip_whitespace>false</strip_whitespace>
+        <sys_class_name>sys_soap_message_function</sys_class_name>
+        <sys_created_by>mq20071922</sys_created_by>
+        <sys_created_on>2020-06-30 03:01:51</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>34335c5cdb7914141895403c3a961941</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CreateNewAccountLocation</sys_name>
+        <sys_package display_value="Equipgroup Asset Integration v1" source="x_mau_imp">dfbe4494db7914141895403c3a96193f</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Equipgroup Asset Integration v1">dfbe4494db7914141895403c3a96193f</sys_scope>
+        <sys_update_name>sys_soap_message_function_34335c5cdb7914141895403c3a961941</sys_update_name>
+        <sys_updated_by>mq20071922</sys_updated_by>
+        <sys_updated_on>2020-06-30 03:01:51</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mid_server/>
+        <use_ws_security>false</use_ws_security>
+        <ws_security_type/>
+        <ws_security_username_profile/>
+        <ws_security_x509_profile/>
+    </sys_soap_message_function>
+</record_update>
