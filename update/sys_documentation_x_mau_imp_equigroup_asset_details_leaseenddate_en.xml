@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="leaseenddate" label="LeaseEndDate" language="en" table="x_mau_imp_equigroup_asset_details">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>leaseenddate</element>
+            <help/>
+            <hint/>
+            <label>LeaseEndDate</label>
+            <language>en</language>
+            <name>x_mau_imp_equigroup_asset_details</name>
+            <plural>LeaseEndDates</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>mq20071922</sys_created_by>
+            <sys_created_on>2020-06-30 04:23:08</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>e3c5289cdbf914141895403c3a961981</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>LeaseEndDate</sys_name>
+            <sys_package display_value="Equipgroup Asset Integration v1" source="x_mau_imp">dfbe4494db7914141895403c3a96193f</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Equipgroup Asset Integration v1">dfbe4494db7914141895403c3a96193f</sys_scope>
+            <sys_update_name>sys_documentation_x_mau_imp_equigroup_asset_details_leaseenddate_en</sys_update_name>
+            <sys_updated_by>mq20071922</sys_updated_by>
+            <sys_updated_on>2020-06-30 04:23:08</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

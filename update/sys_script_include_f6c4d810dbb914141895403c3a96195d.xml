@@ -46,7 +46,6 @@ getassetdetails.prototype = {
             var database = new GlideRecord('x_mau_imp_equigroup_asset_details');
             database.initialize();
             database.assetidlist = AID;
-            database.organisationid = OID;
             database.insert();
         } catch (ex) {
             var message = ex.message;
@@ -59,7 +58,7 @@ getassetdetails.prototype = {
         <sys_created_on>2020-06-30 03:10:31</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>f6c4d810dbb914141895403c3a96195d</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>getassetdetails</sys_name>
         <sys_package display_value="Equipgroup Asset Integration v1" source="x_mau_imp">dfbe4494db7914141895403c3a96193f</sys_package>
         <sys_policy>read</sys_policy>
@@ -67,6 +66,6 @@ getassetdetails.prototype = {
         <sys_scope display_value="Equipgroup Asset Integration v1">dfbe4494db7914141895403c3a96193f</sys_scope>
         <sys_update_name>sys_script_include_f6c4d810dbb914141895403c3a96195d</sys_update_name>
         <sys_updated_by>mq20071922</sys_updated_by>
-        <sys_updated_on>2020-06-30 03:15:43</sys_updated_on>
+        <sys_updated_on>2020-06-30 03:30:49</sys_updated_on>
     </sys_script_include>
 </record_update>

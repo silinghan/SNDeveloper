@@ -1,3 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="sys_import_set_row" label="Equigroup Asset Details" max_length="40" name="x_mau_imp_equigroup_asset_details" type="collection"/>
+    <element extends="sys_import_set_row" label="Equigroup Asset Details" max_length="40" name="x_mau_imp_equigroup_asset_details" type="collection">
+        <element label="AssetDescription" max_length="150" name="assetdescription" type="string"/>
+        <element label="AssetId" max_length="40" name="assetid" type="string"/>
+        <element label="CostCentreName" max_length="40" name="costcentrename" type="string"/>
+        <element label="Cost_ex_GST" max_length="20" name="cost_ex_gst" type="decimal"/>
+        <element label="CurrentMonthlyRent" max_length="40" name="currentmonthlyrent" type="string"/>
+        <element label="InvoiceNo" max_length="40" name="invoiceno" type="string"/>
+        <element label="InvoiceTotal" max_length="40" name="invoicetotal" type="string"/>
+        <element label="LeaseEndDate" max_length="40" name="leaseenddate" type="string"/>
+        <element label="LeaseStartDate" max_length="40" name="leasestartdate" type="string"/>
+        <element label="LeaseTerm" max_length="40" name="leaseterm" type="string"/>
+        <element label="PurchaseOrderNo" max_length="40" name="purchaseorderno" type="string"/>
+        <element label="SerialNo" max_length="40" name="serialno" type="string"/>
+        <element label="SubCategoryName" max_length="40" name="subcategoryname" type="string"/>
+        <element label="Supplier" max_length="40" name="supplier" type="string"/>
+    </element>
 </database>

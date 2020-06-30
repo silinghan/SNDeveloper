@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="1d0a5898dbb914141895403c3a961904" sys_domain="global" table="x_mau_imp_equigroup_asset_details" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>template_import_log</element>
+            <position>0</position>
+            <sys_created_by>mq20071922</sys_created_by>
+            <sys_created_on>2020-06-30 03:31:39</sys_created_on>
+            <sys_id>950a5898dbb914141895403c3a961906</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mau_imp_equigroup_asset_details" sys_domain="global" view="Default view">1d0a5898dbb914141895403c3a961904</sys_ui_section>
+            <sys_updated_by>mq20071922</sys_updated_by>
+            <sys_updated_on>2020-06-30 03:31:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assetid</element>
+            <position>1</position>
+            <sys_created_by>mq20071922</sys_created_by>
+            <sys_created_on>2020-06-30 04:19:43</sys_created_on>
+            <sys_id>e105605cdbf914141895403c3a9619d5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mau_imp_equigroup_asset_details" sys_domain="global" view="Default view">1d0a5898dbb914141895403c3a961904</sys_ui_section>
+            <sys_updated_by>mq20071922</sys_updated_by>
+            <sys_updated_on>2020-06-30 04:19:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>serialno</element>
+            <position>2</position>
+            <sys_created_by>mq20071922</sys_created_by>
+            <sys_created_on>2020-06-30 04:21:27</sys_created_on>
+            <sys_id>7265e85cdbf914141895403c3a9619ec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mau_imp_equigroup_asset_details" sys_domain="global" view="Default view">1d0a5898dbb914141895403c3a961904</sys_ui_section>
+            <sys_updated_by>mq20071922</sys_updated_by>
+            <sys_updated_on>2020-06-30 04:21:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>subcategoryname</element>
+            <position>3</position>
+            <sys_created_by>mq20071922</sys_created_by>
+            <sys_created_on>2020-06-30 04:21:59</sys_created_on>
+            <sys_id>ba852c5cdbf914141895403c3a9619c5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mau_imp_equigroup_asset_details" sys_domain="global" view="Default view">1d0a5898dbb914141895403c3a961904</sys_ui_section>
+            <sys_updated_by>mq20071922</sys_updated_by>
+            <sys_updated_on>2020-06-30 04:21:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>leaseenddate</element>
+            <position>4</position>
+            <sys_created_by>mq20071922</sys_created_by>
+            <sys_created_on>2020-06-30 04:23:08</sys_created_on>
+            <sys_id>a3c5609cdbf914141895403c3a9619a5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mau_imp_equigroup_asset_details" sys_domain="global" view="Default view">1d0a5898dbb914141895403c3a961904</sys_ui_section>
+            <sys_updated_by>mq20071922</sys_updated_by>
+            <sys_updated_on>2020-06-30 04:23:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>leasestartdate</element>
+            <position>5</position>
+            <sys_created_by>mq20071922</sys_created_by>
+            <sys_created_on>2020-06-30 04:24:39</sys_created_on>
+            <sys_id>7126e0dcdbf914141895403c3a9619df</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mau_imp_equigroup_asset_details" sys_domain="global" view="Default view">1d0a5898dbb914141895403c3a961904</sys_ui_section>
+            <sys_updated_by>mq20071922</sys_updated_by>
+            <sys_updated_on>2020-06-30 04:24:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>invoiceno</element>
+            <position>6</position>
+            <sys_created_by>mq20071922</sys_created_by>
+            <sys_created_on>2020-06-30 04:28:44</sys_created_on>
+            <sys_id>a11724dcdbf914141895403c3a9619c8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mau_imp_equigroup_asset_details" sys_domain="global" view="Default view">1d0a5898dbb914141895403c3a961904</sys_ui_section>
+            <sys_updated_by>mq20071922</sys_updated_by>
+            <sys_updated_on>2020-06-30 04:28:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>purchaseorderno</element>
+            <position>7</position>
+            <sys_created_by>mq20071922</sys_created_by>
+            <sys_created_on>2020-06-30 04:30:53</sys_created_on>
+            <sys_id>0997e4dcdbf914141895403c3a961934</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mau_imp_equigroup_asset_details" sys_domain="global" view="Default view">1d0a5898dbb914141895403c3a961904</sys_ui_section>
+            <sys_updated_by>mq20071922</sys_updated_by>
+            <sys_updated_on>2020-06-30 04:30:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>costcentrename</element>
+            <position>8</position>
+            <sys_created_by>mq20071922</sys_created_by>
+            <sys_created_on>2020-06-30 04:33:40</sys_created_on>
+            <sys_id>b938ec10db3d14141895403c3a96195c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mau_imp_equigroup_asset_details" sys_domain="global" view="Default view">1d0a5898dbb914141895403c3a961904</sys_ui_section>
+            <sys_updated_by>mq20071922</sys_updated_by>
+            <sys_updated_on>2020-06-30 04:33:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assetcost</element>
+            <position>9</position>
+            <sys_created_by>mq20071922</sys_created_by>
+            <sys_created_on>2020-06-30 04:36:07</sys_created_on>
+            <sys_id>edc8acd0db3d14141895403c3a961903</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mau_imp_equigroup_asset_details" sys_domain="global" view="Default view">1d0a5898dbb914141895403c3a961904</sys_ui_section>
+            <sys_updated_by>mq20071922</sys_updated_by>
+            <sys_updated_on>2020-06-30 04:36:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>leaseterm</element>
+            <position>10</position>
+            <sys_created_by>mq20071922</sys_created_by>
+            <sys_created_on>2020-06-30 04:38:13</sys_created_on>
+            <sys_id>5049a814db3d14141895403c3a961904</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mau_imp_equigroup_asset_details" sys_domain="global" view="Default view">1d0a5898dbb914141895403c3a961904</sys_ui_section>
+            <sys_updated_by>mq20071922</sys_updated_by>
+            <sys_updated_on>2020-06-30 04:38:13</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>supplier</element>
+            <position>11</position>
+            <sys_created_by>mq20071922</sys_created_by>
+            <sys_created_on>2020-06-30 04:40:20</sys_created_on>
+            <sys_id>93b9a814db3d14141895403c3a9619f5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mau_imp_equigroup_asset_details" sys_domain="global" view="Default view">1d0a5898dbb914141895403c3a961904</sys_ui_section>
+            <sys_updated_by>mq20071922</sys_updated_by>
+            <sys_updated_on>2020-06-30 04:40:20</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cost_ex_gst</element>
+            <position>12</position>
+            <sys_created_by>mq20071922</sys_created_by>
+            <sys_created_on>2020-06-30 04:41:42</sys_created_on>
+            <sys_id>eb0a6094db3d14141895403c3a961961</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mau_imp_equigroup_asset_details" sys_domain="global" view="Default view">1d0a5898dbb914141895403c3a961904</sys_ui_section>
+            <sys_updated_by>mq20071922</sys_updated_by>
+            <sys_updated_on>2020-06-30 04:41:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>currentmonthlyrent</element>
+            <position>13</position>
+            <sys_created_by>mq20071922</sys_created_by>
+            <sys_created_on>2020-06-30 04:42:27</sys_created_on>
+            <sys_id>623aa494db3d14141895403c3a9619ad</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mau_imp_equigroup_asset_details" sys_domain="global" view="Default view">1d0a5898dbb914141895403c3a961904</sys_ui_section>
+            <sys_updated_by>mq20071922</sys_updated_by>
+            <sys_updated_on>2020-06-30 04:42:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>invoicetotal</element>
+            <position>14</position>
+            <sys_created_by>mq20071922</sys_created_by>
+            <sys_created_on>2020-06-30 04:45:22</sys_created_on>
+            <sys_id>59eaa8d4db3d14141895403c3a961972</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mau_imp_equigroup_asset_details" sys_domain="global" view="Default view">1d0a5898dbb914141895403c3a961904</sys_ui_section>
+            <sys_updated_by>mq20071922</sys_updated_by>
+            <sys_updated_on>2020-06-30 04:45:22</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_mau_imp_equigroup_asset_details</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>mq20071922</sys_created_by>
+            <sys_created_on>2020-06-30 03:31:39</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>1d0a5898dbb914141895403c3a961904</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_mau_imp_equigroup_asset_details</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Equipgroup Asset Integration v1" source="x_mau_imp">dfbe4494db7914141895403c3a96193f</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Equipgroup Asset Integration v1">dfbe4494db7914141895403c3a96193f</sys_scope>
+            <sys_update_name>sys_ui_section_1d0a5898dbb914141895403c3a961904</sys_update_name>
+            <sys_updated_by>mq20071922</sys_updated_by>
+            <sys_updated_on>2020-06-30 03:31:39</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>
