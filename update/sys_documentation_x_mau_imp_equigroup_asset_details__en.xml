@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="" label="Equigroup Asset Detail" language="en" table="x_mau_imp_equigroup_asset_detail">
+    <sys_documentation element="" label="Equigroup Asset Details" language="en" table="x_mau_imp_equigroup_asset_details">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element/>
             <help/>
             <hint/>
-            <label>Equigroup Asset Detail</label>
+            <label>Equigroup Asset Details</label>
             <language>en</language>
-            <name>x_mau_imp_equigroup_asset_detail</name>
+            <name>x_mau_imp_equigroup_asset_details</name>
             <plural>Equigroup Asset Details</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>mq20071922</sys_created_by>
-            <sys_created_on>2020-06-30 02:46:46</sys_created_on>
+            <sys_created_on>2020-06-30 03:13:47</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
-            <sys_id>7bbf4018db7914141895403c3a9619e2</sys_id>
+            <sys_id>afe59890dbb914141895403c3a9619d1</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>Equigroup Asset Detail</sys_name>
+            <sys_name>Equigroup Asset Details</sys_name>
             <sys_package display_value="Equipgroup Asset Integration v1" source="x_mau_imp">dfbe4494db7914141895403c3a96193f</sys_package>
             <sys_policy/>
             <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="Equipgroup Asset Integration v1">dfbe4494db7914141895403c3a96193f</sys_scope>
-            <sys_update_name>sys_documentation_x_mau_imp_equigroup_asset_detail__en</sys_update_name>
+            <sys_update_name>sys_documentation_x_mau_imp_equigroup_asset_details__en</sys_update_name>
             <sys_updated_by>mq20071922</sys_updated_by>
-            <sys_updated_on>2020-06-30 02:46:46</sys_updated_on>
+            <sys_updated_on>2020-06-30 03:13:47</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_mau_imp.getassetdetails</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>getassetdetails</name>
+        <script><![CDATA[var getassetdetails = Class.create();
+getassetdetails.prototype = {
+    initialize: function() {},
+    get_assetdetails: function() {
+        try {
+            var s = new sn_ws.SOAPMessageV2('x_mau_imp.equigroup outbound soap v1', 'LookupAccount');
+
+            //override authentication profile 
+            //authentication type ='basic'
+            //r.setAuthentication(authentication type,profile name);
+
+            //set a MID server name if one wants to run the message on MID
+            //r.setMIDServer('MY_MID_SERVER');
+
+            //if the message is configured to communicate through ECC queue, either
+            //by setting a MID server or calling executeAsync, one needs to set skip_sensor
+            //to true. Otherwise, one may get an intermittent error that the response body is null
+            //r.setEccParameter('skip_sensor', true);
+
+            s.setRequestHeader("Content-Type", "application/soap+xml; charset=utf-8");
+            s.setStringParameterNoEscape('LookupAccount.Password', 'b5qN_J+3XCgyk');
+            s.setStringParameterNoEscape('LookupAccount.Username', 'Macquarie API User');
+            var response = s.execute();
+            var responseBody = response.getBody();
+            var status = response.getStatusCode();
+
+            //gs.addInfoMessage("Response: " + responseBody);
+            //gs.addInfoMessage("HTTP Status: " + status);
+
+            var xmlDoc = new XMLDocument2();
+            xmlDoc.parseXML(responseBody);
+            var AID = xmlDoc.getNodeText("//b:AccountId");
+            var AName = xmlDoc.getNodeText("//b:AccountName");
+            var OID = xmlDoc.getNodeText("//b:OrganisationId");
+            var OName = xmlDoc.getNodeText("//b:OrganisationName");
+
+            var database = new GlideRecord('x_mau_imp_equigroup_asset_details');
+            database.initialize();
+            database.assetidlist = AID;
+            database.organisationid = OID;
+            database.insert();
+        } catch (ex) {
+            var message = ex.message;
+        }
+    },
+    type: 'getassetdetails'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>mq20071922</sys_created_by>
+        <sys_created_on>2020-06-30 03:10:31</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>f6c4d810dbb914141895403c3a96195d</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>getassetdetails</sys_name>
+        <sys_package display_value="Equipgroup Asset Integration v1" source="x_mau_imp">dfbe4494db7914141895403c3a96193f</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Equipgroup Asset Integration v1">dfbe4494db7914141895403c3a96193f</sys_scope>
+        <sys_update_name>sys_script_include_f6c4d810dbb914141895403c3a96195d</sys_update_name>
+        <sys_updated_by>mq20071922</sys_updated_by>
+        <sys_updated_on>2020-06-30 03:15:43</sys_updated_on>
+    </sys_script_include>
+</record_update>

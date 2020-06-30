@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Equigroup Asset Details" max_length="40" name="x_mau_imp_equigroup_asset_details" type="collection"/>
+</database>

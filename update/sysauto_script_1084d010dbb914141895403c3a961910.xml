@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition/>
+        <conditional>false</conditional>
+        <name>equigroup outbound soap import</name>
+        <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2020-06-30 03:07:00</run_start>
+        <run_time>1969-12-31 14:00:00</run_time>
+        <run_type>on_demand</run_type>
+        <script><![CDATA[new getassetdetails().get_assetdetails();]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>mq20071922</sys_created_by>
+        <sys_created_on>2020-06-30 03:08:36</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>1084d010dbb914141895403c3a961910</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>equigroup outbound soap import</sys_name>
+        <sys_package display_value="Equipgroup Asset Integration v1" source="x_mau_imp">dfbe4494db7914141895403c3a96193f</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Equipgroup Asset Integration v1">dfbe4494db7914141895403c3a96193f</sys_scope>
+        <sys_update_name>sysauto_script_1084d010dbb914141895403c3a961910</sys_update_name>
+        <sys_updated_by>mq20071922</sys_updated_by>
+        <sys_updated_on>2020-06-30 03:17:46</sys_updated_on>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

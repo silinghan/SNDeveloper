@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>mq20071922</sys_created_by>
+        <sys_created_on>2020-06-30 02:46:47</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>94cf4cd4db7914141895403c3a9619dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_mau_imp_equigroup_asset_detail.admin</sys_name>
+        <sys_package display_value="Equipgroup Asset Integration v1" source="x_mau_imp">dfbe4494db7914141895403c3a96193f</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Equipgroup Asset Integration v1">dfbe4494db7914141895403c3a96193f</sys_scope>
+        <sys_security_acl display_value="x_mau_imp_equigroup_asset_detail">dccf4cd4db7914141895403c3a9619d5</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_94cf4cd4db7914141895403c3a9619dc</sys_update_name>
+        <sys_updated_by>mq20071922</sys_updated_by>
+        <sys_updated_on>2020-06-30 02:46:47</sys_updated_on>
+        <sys_user_role display_value="admin" name="admin">2831a114c611228501d4ea6c309d626d</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Equipgroup Asset Integration v1">dfbe4494db7914141895403c3a96193f</application>
+        <file_path/>
+        <instance_id>4ed85908dbd82b044f035d00cf961986</instance_id>
+        <instance_name>mqedutest1</instance_name>
+        <name>sys_security_acl_role_94cf4cd4db7914141895403c3a9619dc</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>mq20071922</sys_created_by><sys_created_on>2020-06-30 02:46:47</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>94cf4cd4db7914141895403c3a9619dc</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_mau_imp_equigroup_asset_detail.admin</sys_name><sys_package display_value="Equipgroup Asset Integration v1" source="x_mau_imp">dfbe4494db7914141895403c3a96193f</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Equipgroup Asset Integration v1">dfbe4494db7914141895403c3a96193f</sys_scope><sys_security_acl display_value="x_mau_imp_equigroup_asset_detail">dccf4cd4db7914141895403c3a9619d5</sys_security_acl><sys_update_name>sys_security_acl_role_94cf4cd4db7914141895403c3a9619dc</sys_update_name><sys_updated_by>mq20071922</sys_updated_by><sys_updated_on>2020-06-30 02:46:47</sys_updated_on><sys_user_role display_value="admin" name="admin">2831a114c611228501d4ea6c309d626d</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>328711309</payload_hash>
+        <record_name>x_mau_imp_equigroup_asset_detail.admin</record_name>
+        <reverted_from/>
+        <source>dbbe4494db7914141895403c3a961942</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>mq20071922</sys_created_by>
+        <sys_created_on>2020-06-30 02:46:48</sys_created_on>
+        <sys_id>5ccf8018db7914141895403c3a961965</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>173031eaa2d0000001</sys_recorded_at>
+        <sys_updated_by>mq20071922</sys_updated_by>
+        <sys_updated_on>2020-06-30 02:46:48</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>98cf4cd42b791414661118531ceee2e0</update_guid>
+        <update_guid_history>98cf4cd42b791414661118531ceee2e0:328711309</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 30/06/2020 13:14">2ff59c90dbb914141895403c3a96196a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>mq20071922</sys_created_by>
+        <sys_created_on>2020-06-30 03:14:03</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>5acc7543304943969e8e4ea181014844</sys_id>
+        <sys_metadata>94cf4cd4db7914141895403c3a9619dc</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_mau_imp_equigroup_asset_detail.admin</sys_name>
+        <sys_package display_value="Equipgroup Asset Integration v1" source="x_mau_imp">dfbe4494db7914141895403c3a96193f</sys_package>
+        <sys_parent display_value="">dccf4cd4db7914141895403c3a9619d5</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Equipgroup Asset Integration v1">dfbe4494db7914141895403c3a96193f</sys_scope>
+        <sys_scope_delete display_value="">405e8700c0594d24b59e763f69d7fd39</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_94cf4cd4db7914141895403c3a9619dc</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_94cf4cd4db7914141895403c3a9619dc">5ccf8018db7914141895403c3a961965</sys_update_version>
+        <sys_updated_by>mq20071922</sys_updated_by>
+        <sys_updated_on>2020-06-30 03:14:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
