@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Equigroup Asset Detail" max_length="40" name="x_mau_imp_equigroup_asset_detail" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Test" max_length="40" name="test" type="string"/>
+    </element>
+</database>
